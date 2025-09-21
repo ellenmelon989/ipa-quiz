@@ -83,8 +83,6 @@ export default function QuizPage() {
     } else {
       setIdx(i => i + 1)
     }
-    // optional autoplay after changing item
-    // setTimeout(() => audioRef.current?.play(), 0)
   }
 
   if (!current) {
